@@ -1,4 +1,4 @@
-import colors from "tailwindcss/colors"
+import colors from "tailwindcss/colors";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -18,4 +18,4 @@ export default {
     },
   },
   plugins: [],
-}
+};
