@@ -1,4 +1,5 @@
 import { CategoryPills } from "./components/CategoryPills";
+import { categories } from "./data/home";
 import { PageHeader } from "./layouts/PageHeader";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <div className="grid grid-cols-[auto,1fr] flex-grow-1 overflow-auto ">
         <div>Sidebar</div>
         <div className=" sticky top-0 bg-white z-10 pb-4">
-          <CategoryPills />
+          <CategoryPills categories={categories} />
         </div>
       </div>
     </div>
