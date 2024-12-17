@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import { Button } from "../components/Button";
 import { useState } from "react";
 
-export default function PageHeader() {
+export function PageHeader() {
   const [showFullWidthSearch, setShowFullWidthSearch] = useState(false);
   return (
     <div className="flex gap-10 lg:gap-20 justify-between pt-2 mb-6 mx-4">
