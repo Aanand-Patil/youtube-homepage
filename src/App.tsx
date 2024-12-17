@@ -1,3 +1,4 @@
+import { CategoryPills } from "./components/CategoryPills";
 import { PageHeader } from "./layouts/PageHeader";
 
 function App() {
